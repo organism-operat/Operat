@@ -1,0 +1,514 @@
+{
+  "spec": {
+    "title": "CSS Speech Module",
+    "url": "https://www.w3.org/TR/css-speech-1/"
+  },
+  "dfns": [
+    {
+      "id": "aural-box-model",
+      "href": "https://www.w3.org/TR/css-speech-1/#aural-box-model",
+      "linkingText": [
+        "aural \"box\" model"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "aural-model",
+        "href": "https://www.w3.org/TR/css-speech-1/#aural-model",
+        "title": "The aural formatting model",
+        "number": "6"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "voice-volume",
+      "href": "https://www.w3.org/TR/css-speech-1/#voice-volume",
+      "linkingText": [
+        "voice-volume"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "mixing-props-voice-volume",
+        "href": "https://www.w3.org/TR/css-speech-1/#mixing-props-voice-volume",
+        "title": "The ‘voice-volume’ property",
+        "number": "7.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "voice-balance",
+      "href": "https://www.w3.org/TR/css-speech-1/#voice-balance",
+      "linkingText": [
+        "voice-balance"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "mixing-props-voice-balance",
+        "href": "https://www.w3.org/TR/css-speech-1/#mixing-props-voice-balance",
+        "title": "The ‘voice-balance’ property",
+        "number": "7.2"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "speak",
+      "href": "https://www.w3.org/TR/css-speech-1/#speak",
+      "linkingText": [
+        "speak"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "speaking-props-speak",
+        "href": "https://www.w3.org/TR/css-speech-1/#speaking-props-speak",
+        "title": "The ‘speak’ property",
+        "number": "8.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "speak-as",
+      "href": "https://www.w3.org/TR/css-speech-1/#speak-as",
+      "linkingText": [
+        "speak-as"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "speaking-props-speak-as",
+        "href": "https://www.w3.org/TR/css-speech-1/#speaking-props-speak-as",
+        "title": "The ‘speak-as’ property",
+        "number": "8.2"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "pause-before",
+      "href": "https://www.w3.org/TR/css-speech-1/#pause-before",
+      "linkingText": [
+        "pause-before"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "pause-props-pause-before-after",
+        "href": "https://www.w3.org/TR/css-speech-1/#pause-props-pause-before-after",
+        "title": "The ‘pause-before’ and ‘pause-after’ properties",
+        "number": "9.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "pause-after",
+      "href": "https://www.w3.org/TR/css-speech-1/#pause-after",
+      "linkingText": [
+        "pause-after"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "pause-props-pause-before-after",
+        "href": "https://www.w3.org/TR/css-speech-1/#pause-props-pause-before-after",
+        "title": "The ‘pause-before’ and ‘pause-after’ properties",
+        "number": "9.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "pause",
+      "href": "https://www.w3.org/TR/css-speech-1/#pause",
+      "linkingText": [
+        "pause"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "pause-props-pause",
+        "href": "https://www.w3.org/TR/css-speech-1/#pause-props-pause",
+        "title": "The ‘pause’ shorthand property",
+        "number": "9.2"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "rest-before",
+      "href": "https://www.w3.org/TR/css-speech-1/#rest-before",
+      "linkingText": [
+        "rest-before"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "rest-props-rest-before-after",
+        "href": "https://www.w3.org/TR/css-speech-1/#rest-props-rest-before-after",
+        "title": "The ‘rest-before’ and ‘rest-after’ properties",
+        "number": "10.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "rest-after",
+      "href": "https://www.w3.org/TR/css-speech-1/#rest-after",
+      "linkingText": [
+        "rest-after"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "rest-props-rest-before-after",
+        "href": "https://www.w3.org/TR/css-speech-1/#rest-props-rest-before-after",
+        "title": "The ‘rest-before’ and ‘rest-after’ properties",
+        "number": "10.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "rest",
+      "href": "https://www.w3.org/TR/css-speech-1/#rest",
+      "linkingText": [
+        "rest"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "rest-props-rest",
+        "href": "https://www.w3.org/TR/css-speech-1/#rest-props-rest",
+        "title": "The ‘rest’ shorthand property",
+        "number": "10.2"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "cue-before",
+      "href": "https://www.w3.org/TR/css-speech-1/#cue-before",
+      "linkingText": [
+        "cue-before"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "cue-props-cue-before-after",
+        "href": "https://www.w3.org/TR/css-speech-1/#cue-props-cue-before-after",
+        "title": "The ‘cue-before’ and ‘cue-after’ properties",
+        "number": "11.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "cue-after",
+      "href": "https://www.w3.org/TR/css-speech-1/#cue-after",
+      "linkingText": [
+        "cue-after"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "cue-props-cue-before-after",
+        "href": "https://www.w3.org/TR/css-speech-1/#cue-props-cue-before-after",
+        "title": "The ‘cue-before’ and ‘cue-after’ properties",
+        "number": "11.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "cue",
+      "href": "https://www.w3.org/TR/css-speech-1/#cue",
+      "linkingText": [
+        "cue"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "cue-props-cue",
+        "href": "https://www.w3.org/TR/css-speech-1/#cue-props-cue",
+        "title": "The ‘cue’ shorthand property",
+        "number": "11.3"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "voice-family",
+      "href": "https://www.w3.org/TR/css-speech-1/#voice-family",
+      "linkingText": [
+        "voice-family"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "voice-props-voice-family",
+        "href": "https://www.w3.org/TR/css-speech-1/#voice-props-voice-family",
+        "title": "The ‘voice-family’ property",
+        "number": "12.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "voice-rate",
+      "href": "https://www.w3.org/TR/css-speech-1/#voice-rate",
+      "linkingText": [
+        "voice-rate"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "voice-props-voice-rate",
+        "href": "https://www.w3.org/TR/css-speech-1/#voice-props-voice-rate",
+        "title": "The ‘voice-rate’ property",
+        "number": "12.2"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "voice-pitch",
+      "href": "https://www.w3.org/TR/css-speech-1/#voice-pitch",
+      "linkingText": [
+        "voice-pitch"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "voice-props-voice-pitch",
+        "href": "https://www.w3.org/TR/css-speech-1/#voice-props-voice-pitch",
+        "title": "The ‘voice-pitch’ property",
+        "number": "12.3"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "voice-range",
+      "href": "https://www.w3.org/TR/css-speech-1/#voice-range",
+      "linkingText": [
+        "voice-range"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "voice-props-voice-range",
+        "href": "https://www.w3.org/TR/css-speech-1/#voice-props-voice-range",
+        "title": "The ‘voice-range’ property",
+        "number": "12.4"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "voice-stress",
+      "href": "https://www.w3.org/TR/css-speech-1/#voice-stress",
+      "linkingText": [
+        "voice-stress"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "voice-props-voice-stress",
+        "href": "https://www.w3.org/TR/css-speech-1/#voice-props-voice-stress",
+        "title": "The ‘voice-stress’ property",
+        "number": "12.5"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "voice-duration",
+      "href": "https://www.w3.org/TR/css-speech-1/#voice-duration",
+      "linkingText": [
+        "voice-duration"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "mixing-props-voice-duration",
+        "href": "https://www.w3.org/TR/css-speech-1/#mixing-props-voice-duration",
+        "title": "The ‘voice-duration’ property",
+        "number": "13.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "content-def",
+      "href": "https://www.w3.org/TR/css-speech-1/#content-def",
+      "linkingText": [
+        "content"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "property-index",
+        "href": "https://www.w3.org/TR/css-speech-1/#property-index",
+        "title": "Appendix A — Property index"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "ua",
+      "href": "https://www.w3.org/TR/css-speech-1/#ua",
+      "linkingText": [
+        "UA"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/css-speech-1/#glossary",
+        "title": "Glossary"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "user-agent",
+      "href": "https://www.w3.org/TR/css-speech-1/#user-agent",
+      "linkingText": [
+        "User Agent"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/css-speech-1/#glossary",
+        "title": "Glossary"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "document",
+      "href": "https://www.w3.org/TR/css-speech-1/#document",
+      "linkingText": [
+        "document"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/css-speech-1/#glossary",
+        "title": "Glossary"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "style-sheet",
+      "href": "https://www.w3.org/TR/css-speech-1/#style-sheet",
+      "linkingText": [
+        "style sheet"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/css-speech-1/#glossary",
+        "title": "Glossary"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "renderer",
+      "href": "https://www.w3.org/TR/css-speech-1/#renderer",
+      "linkingText": [
+        "renderer"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "conformance",
+        "href": "https://www.w3.org/TR/css-speech-1/#conformance",
+        "title": "Conformance"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "authoring-tool",
+      "href": "https://www.w3.org/TR/css-speech-1/#authoring-tool",
+      "linkingText": [
+        "authoring tool"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "conformance",
+        "href": "https://www.w3.org/TR/css-speech-1/#conformance",
+        "title": "Conformance"
+      },
+      "definedIn": "dt"
+    }
+  ]
+}

@@ -1,0 +1,399 @@
+{
+  "spec": {
+    "title": "Scroll-linked Animations",
+    "url": "https://www.w3.org/TR/scroll-animations-1/"
+  },
+  "properties": [
+    {
+      "name": "scroll-timeline-name",
+      "value": "none | <custom-ident>#",
+      "initial": "none",
+      "appliesTo": "scroll containers",
+      "inherited": "no",
+      "percentages": "n/a",
+      "computedValue": "the keyword none or a list of <custom-ident>s",
+      "canonicalOrder": "per grammar",
+      "animationType": "not animatable",
+      "styleDeclaration": [
+        "scroll-timeline-name",
+        "scrollTimelineName"
+      ]
+    },
+    {
+      "name": "scroll-timeline-axis",
+      "value": "[ block | inline | vertical | horizontal ]#",
+      "initial": "block",
+      "appliesTo": "scroll containers",
+      "inherited": "no",
+      "percentages": "n/a",
+      "computedValue": "a list of the keywords specified",
+      "canonicalOrder": "per grammar",
+      "animationType": "not animatable",
+      "values": [
+        {
+          "name": "block",
+          "prose": "Specifies to use the measure of progress along the block axis of the scroll container. (Default.)",
+          "type": "value",
+          "value": "block"
+        },
+        {
+          "name": "inline",
+          "prose": "Specifies to use the measure of progress along the inline axis of the scroll container.",
+          "type": "value",
+          "value": "inline"
+        },
+        {
+          "name": "vertical",
+          "prose": "Specifies to use the measure of progress along the vertical axis of the scroll container.",
+          "type": "value",
+          "value": "vertical"
+        },
+        {
+          "name": "horizontal",
+          "prose": "Specifies to use the measure of progress along the horizontal axis of the scroll container.",
+          "type": "value",
+          "value": "horizontal"
+        },
+        {
+          "name": "nearest",
+          "prose": "Specifies to use the nearest ancestor scroll container. (Default.)",
+          "type": "value",
+          "value": "nearest"
+        },
+        {
+          "name": "root",
+          "prose": "Specifies to use the document viewport as the scroll container.",
+          "type": "value",
+          "value": "root"
+        }
+      ],
+      "styleDeclaration": [
+        "scroll-timeline-axis",
+        "scrollTimelineAxis"
+      ]
+    },
+    {
+      "name": "scroll-timeline",
+      "value": "[ <'scroll-timeline-name'> || <'scroll-timeline-axis'> ]#",
+      "initial": "see individual properties",
+      "appliesTo": "scroll containers",
+      "inherited": "no",
+      "percentages": "see individual properties",
+      "computedValue": "see individual properties",
+      "animationType": "not animatable",
+      "canonicalOrder": "per grammar",
+      "styleDeclaration": [
+        "scroll-timeline",
+        "scrollTimeline"
+      ]
+    },
+    {
+      "name": "view-timeline-name",
+      "value": "none | <custom-ident>#",
+      "initial": "none",
+      "appliesTo": "all elements",
+      "inherited": "no",
+      "percentages": "n/a",
+      "computedValue": "the keyword none or a list of <custom-ident>s",
+      "canonicalOrder": "per grammar",
+      "animationType": "not animatable",
+      "styleDeclaration": [
+        "view-timeline-name",
+        "viewTimelineName"
+      ]
+    },
+    {
+      "name": "view-timeline-axis",
+      "value": "[ block | inline | vertical | horizontal ]#",
+      "initial": "block",
+      "appliesTo": "all elements",
+      "inherited": "no",
+      "percentages": "n/a",
+      "computedValue": "a list of the keywords specified",
+      "canonicalOrder": "per grammar",
+      "animationType": "not animatable",
+      "values": [
+        {
+          "name": "block",
+          "prose": "Specifies to use the measure of progress along the block axis of the scroll container. (Default.)",
+          "type": "value",
+          "value": "block"
+        },
+        {
+          "name": "inline",
+          "prose": "Specifies to use the measure of progress along the inline axis of the scroll container.",
+          "type": "value",
+          "value": "inline"
+        },
+        {
+          "name": "vertical",
+          "prose": "Specifies to use the measure of progress along the vertical axis of the scroll container.",
+          "type": "value",
+          "value": "vertical"
+        },
+        {
+          "name": "horizontal",
+          "prose": "Specifies to use the measure of progress along the horizontal axis of the scroll container.",
+          "type": "value",
+          "value": "horizontal"
+        },
+        {
+          "name": "nearest",
+          "prose": "Specifies to use the nearest ancestor scroll container. (Default.)",
+          "type": "value",
+          "value": "nearest"
+        },
+        {
+          "name": "root",
+          "prose": "Specifies to use the document viewport as the scroll container.",
+          "type": "value",
+          "value": "root"
+        }
+      ],
+      "styleDeclaration": [
+        "view-timeline-axis",
+        "viewTimelineAxis"
+      ]
+    },
+    {
+      "name": "view-timeline-inset",
+      "value": "[ [ auto | <length-percentage> ]{1,2} ]#",
+      "initial": "0",
+      "appliesTo": "all elements",
+      "inherited": "no",
+      "percentages": "relative to the corresponding dimension of the relevant scrollport",
+      "computedValue": "a list consisting of two-value pairs representing the start and end insets each as either the keyword auto or a computed <length-percentage> value",
+      "canonicalOrder": "per grammar",
+      "animationType": "by computed value type",
+      "values": [
+        {
+          "name": "auto",
+          "prose": "Indicates to use the value of scroll-padding.",
+          "type": "value",
+          "value": "auto"
+        },
+        {
+          "name": "<length-percentage>",
+          "prose": "Like scroll-padding, defines an inward offset from the corresponding edge of the scrollport.",
+          "type": "value",
+          "value": "<length-percentage>"
+        }
+      ],
+      "styleDeclaration": [
+        "view-timeline-inset",
+        "viewTimelineInset"
+      ]
+    },
+    {
+      "name": "view-timeline",
+      "value": "[ <'view-timeline-name'> || <'view-timeline-axis'> ]#",
+      "initial": "see individual properties",
+      "appliesTo": "all elements",
+      "inherited": "see individual properties",
+      "percentages": "see individual properties",
+      "computedValue": "see individual properties",
+      "animationType": "see individual properties",
+      "canonicalOrder": "per grammar",
+      "styleDeclaration": [
+        "view-timeline",
+        "viewTimeline"
+      ]
+    },
+    {
+      "name": "animation-delay",
+      "value": "[ <'animation-delay-start'> <'animation-delay-end'>? | <timeline-range-name> ]#",
+      "initial": "see individual properties",
+      "appliesTo": "see individual properties",
+      "inherited": "see individual properties",
+      "percentages": "see individual properties",
+      "computedValue": "see individual properties",
+      "animationType": "see individual properties",
+      "canonicalOrder": "per grammar",
+      "styleDeclaration": [
+        "animation-delay",
+        "animationDelay"
+      ]
+    },
+    {
+      "name": "animation-range",
+      "value": "[ <'animation-delay-start'> <'animation-delay-end'>? | <timeline-range-name> ]#",
+      "initial": "see individual properties",
+      "appliesTo": "see individual properties",
+      "inherited": "see individual properties",
+      "percentages": "see individual properties",
+      "computedValue": "see individual properties",
+      "animationType": "see individual properties",
+      "canonicalOrder": "per grammar",
+      "styleDeclaration": [
+        "animation-range",
+        "animationRange"
+      ]
+    },
+    {
+      "name": "animation-delay-start",
+      "value": "[ <time> | <timeline-range-name> <percentage> ]#",
+      "initial": "0s",
+      "appliesTo": "all elements",
+      "inherited": "no",
+      "percentages": "relative to the specified named timeline range",
+      "computedValue": "list, each item either a duration or a timeline range and progress percentage",
+      "canonicalOrder": "per grammar",
+      "animatable": "no",
+      "values": [
+        {
+          "name": "<time>",
+          "prose": "Defines the delay as a duration. See [CSS-ANIMATIONS-1].",
+          "type": "value",
+          "value": "<time>"
+        },
+        {
+          "name": "<timeline-range-name> <percentage>",
+          "prose": "Calculates the delay as the difference between the start of the animation and the specified point on the timeline.",
+          "type": "value",
+          "value": "<timeline-range-name> <percentage>"
+        }
+      ],
+      "styleDeclaration": [
+        "animation-delay-start",
+        "animationDelayStart"
+      ]
+    },
+    {
+      "name": "animation-delay-end",
+      "value": "[ <time> | <timeline-range-name> <percentage> ]#",
+      "initial": "0s",
+      "appliesTo": "all elements",
+      "inherited": "no",
+      "percentages": "relative to the specified named timeline range",
+      "computedValue": "list, each item either a duration or a timeline range and progress percentage",
+      "canonicalOrder": "per grammar",
+      "animatable": "no",
+      "values": [
+        {
+          "name": "<time>",
+          "prose": "Defines the delay as a duration. See [CSS-ANIMATIONS-1].",
+          "type": "value",
+          "value": "<time>"
+        },
+        {
+          "name": "<timeline-range-name> <percentage>",
+          "prose": "Calculates the delay as the difference between the start of the animation and the specified point on the timeline.",
+          "type": "value",
+          "value": "<timeline-range-name> <percentage>"
+        }
+      ],
+      "styleDeclaration": [
+        "animation-delay-end",
+        "animationDelayEnd"
+      ]
+    }
+  ],
+  "atrules": [],
+  "selectors": [],
+  "values": [
+    {
+      "name": "scroll()",
+      "prose": "The scroll() functional notation can be used as a <single-animation-timeline> value in animation-timeline and specifies a scroll progress timeline. Its syntax is",
+      "type": "function",
+      "value": "scroll( [ <scroller> || <axis> ]? )",
+      "values": [
+        {
+          "name": "block",
+          "prose": "Specifies to use the measure of progress along the block axis of the scroll container. (Default.)",
+          "type": "value",
+          "value": "block"
+        },
+        {
+          "name": "inline",
+          "prose": "Specifies to use the measure of progress along the inline axis of the scroll container.",
+          "type": "value",
+          "value": "inline"
+        },
+        {
+          "name": "vertical",
+          "prose": "Specifies to use the measure of progress along the vertical axis of the scroll container.",
+          "type": "value",
+          "value": "vertical"
+        },
+        {
+          "name": "horizontal",
+          "prose": "Specifies to use the measure of progress along the horizontal axis of the scroll container.",
+          "type": "value",
+          "value": "horizontal"
+        },
+        {
+          "name": "nearest",
+          "prose": "Specifies to use the nearest ancestor scroll container. (Default.)",
+          "type": "value",
+          "value": "nearest"
+        },
+        {
+          "name": "root",
+          "prose": "Specifies to use the document viewport as the scroll container.",
+          "type": "value",
+          "value": "root"
+        }
+      ]
+    },
+    {
+      "name": "<axis>",
+      "type": "type",
+      "value": "block | inline | vertical | horizontal"
+    },
+    {
+      "name": "<scroller>",
+      "type": "type",
+      "value": "root | nearest"
+    },
+    {
+      "name": "view()",
+      "prose": "The view() functional notation can be used as a <single-animation-timeline> value in animation-timeline and specifies a view progress timeline in reference to the nearest ancestor scroll container. Its syntax is",
+      "type": "function",
+      "value": "view( [ <axis> || <'view-timeline-inset'> ]? )"
+    },
+    {
+      "name": "<timeline-range-name>",
+      "prose": "A named timeline range is a named segment of an animation timeline. The start of the segment is represented as 0% progress through the range; the end of the segment is represented as 100% progress through the range. Multiple named timeline ranges can be attached to a given timeline, and multiple such ranges can overlap. For example, the contain range of a view progress timeline overlaps with its cover range. Named timeline ranges are represented by the <timeline-range-name> value type, which indicates a CSS identifier representing one of the predefined named timeline ranges.",
+      "type": "type"
+    }
+  ],
+  "warnings": [
+    {
+      "msg": "Missing definition",
+      "name": "<keyframe-selector>",
+      "value": "from | to | <percentage> | <timeline-range-name> <percentage>"
+    },
+    {
+      "msg": "Dangling value",
+      "name": "cover",
+      "prose": "Represents the full range of the view progress timeline: 0% progress represents the position at which the start border edge of the element’s principal box coincides with the end edge of its view progress visibility range. 100% progress represents the position at which the end border edge of the element’s principal box coincides with the start edge of its view progress visibility range.",
+      "type": "value",
+      "value": "cover",
+      "for": "animation-timeline-range"
+    },
+    {
+      "msg": "Dangling value",
+      "name": "contain",
+      "prose": "Represents the range during which the principal box is either fully contained by, or fully covers, its view progress visibility range within the scrollport. 0% progress represents the earlier position at which: the start border edge of the element’s principal box coincides with the start edge of its view progress visibility range. the end border edge of the element’s principal box coincides with the end edge of its view progress visibility range. 100% progress represents the later position at which: the start border edge of the element’s principal box coincides with the start edge of its view progress visibility range. the end border edge of the element’s principal box coincides with the end edge of its view progress visibility range.",
+      "type": "value",
+      "value": "contain",
+      "for": "animation-timeline-range"
+    },
+    {
+      "msg": "Dangling value",
+      "name": "entry",
+      "prose": "Represents the range during which the principal box is entering the view progress visibility range. 0% is equivalent to 0% of the cover range. 100% is equivalent to 0% of the contain range. Should this be entry or enter?",
+      "type": "value",
+      "value": "entry",
+      "for": "animation-timeline-range"
+    },
+    {
+      "msg": "Dangling value",
+      "name": "exit",
+      "prose": "Represents the range during which the principal box is exiting the view progress visibility range. 0% is equivalent to 100% of the contain range. 100% is equivalent to 100% of the cover range.",
+      "type": "value",
+      "value": "exit",
+      "for": "animation-timeline-range"
+    }
+  ]
+}

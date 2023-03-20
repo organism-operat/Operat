@@ -1,0 +1,295 @@
+{
+  "spec": {
+    "title": "Scroll-driven Animations",
+    "url": "https://drafts.csswg.org/scroll-animations-1/"
+  },
+  "links": {
+    "http://lists.w3.org/Archives/Public/public-css-testsuite": {},
+    "http://www.w3.org/Style/CSS/Test/": {},
+    "http://www.w3.org/TR/CSS/": {
+      "anchors": [
+        "future-proofing",
+        "unstable",
+        "proprietary-extension"
+      ],
+      "specShortname": "CSS22"
+    },
+    "http://www.w3.org/TR/CSS21/conform.html": {
+      "anchors": [
+        "style-sheet",
+        "user-agent",
+        "ignore"
+      ],
+      "specShortname": "CSS21"
+    },
+    "https://datatracker.ietf.org/doc/html/rfc2119": {},
+    "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-timeline": {},
+    "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-timeline-axis": {},
+    "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-timeline-name": {},
+    "https://dom.spec.whatwg.org/": {
+      "anchors": [
+        "element",
+        "document",
+        "concept-range-start",
+        "concept-range-end"
+      ],
+      "specShortname": "dom"
+    },
+    "https://drafts.css-houdini.org/css-typed-om-1/": {
+      "anchors": [
+        "cssnumericvalue",
+        "cssunitvalue",
+        "create-a-cssunitvalue-from-a-pair"
+      ],
+      "specShortname": "css-typed-om-1"
+    },
+    "https://drafts.csswg.org/css-align-3/": {
+      "anchors": [
+        "content-distribute",
+        "overflow-scroll-position"
+      ],
+      "specShortname": "css-align-3"
+    },
+    "https://drafts.csswg.org/css-align/": {
+      "specShortname": "css-align-3"
+    },
+    "https://drafts.csswg.org/css-animations-1/": {
+      "anchors": [
+        "at-ruledef-keyframes",
+        "typedef-keyframe-selector"
+      ],
+      "specShortname": "css-animations-1"
+    },
+    "https://drafts.csswg.org/css-animations-2/": {
+      "anchors": [
+        "propdef-animation-timeline",
+        "typedef-single-animation-timeline"
+      ],
+      "specShortname": "css-animations-2"
+    },
+    "https://drafts.csswg.org/css-animations/": {
+      "specShortname": "css-animations-1"
+    },
+    "https://drafts.csswg.org/css-box-4/": {
+      "anchors": [
+        "border-edge"
+      ],
+      "specShortname": "css-box-4"
+    },
+    "https://drafts.csswg.org/css-cascade-5/": {
+      "anchors": [
+        "longhand",
+        "shorthand-property"
+      ],
+      "specShortname": "css-cascade-5"
+    },
+    "https://drafts.csswg.org/css-display-4/": {
+      "anchors": [
+        "box",
+        "principal-box"
+      ],
+      "specShortname": "css-display-4"
+    },
+    "https://drafts.csswg.org/css-overflow-3/": {
+      "anchors": [
+        "scroll-container",
+        "scrollport",
+        "scrollable-overflow",
+        "scrollable-overflow-rectangle"
+      ],
+      "specShortname": "css-overflow-3"
+    },
+    "https://drafts.csswg.org/css-scoping-1/": {
+      "anchors": [
+        "flat-tree"
+      ],
+      "specShortname": "css-scoping-1"
+    },
+    "https://drafts.csswg.org/css-scoping/": {
+      "specShortname": "css-scoping-1"
+    },
+    "https://drafts.csswg.org/css-scroll-snap-1/": {
+      "anchors": [
+        "propdef-scroll-padding"
+      ],
+      "specShortname": "css-scroll-snap-1"
+    },
+    "https://drafts.csswg.org/css-shapes-2/": {
+      "anchors": [
+        "valdef-shape-to"
+      ],
+      "specShortname": "css-shapes-2"
+    },
+    "https://drafts.csswg.org/css-values-3/": {
+      "specShortname": "css-values-3"
+    },
+    "https://drafts.csswg.org/css-values-4/": {
+      "anchors": [
+        "css-wide-keywords",
+        "functional-notation",
+        "comb-any",
+        "mult-opt",
+        "comb-one",
+        "coordinated-value-list",
+        "coordinating-list-property",
+        "coordinating-list-base-property",
+        "identifier-value",
+        "mult-comma",
+        "px",
+        "typedef-length-percentage",
+        "mult-num-range",
+        "css-css-identifier",
+        "percentage-value",
+        "time-value"
+      ],
+      "specShortname": "css-values-4"
+    },
+    "https://drafts.csswg.org/css-writing-modes-4/": {
+      "anchors": [
+        "block-axis",
+        "inline-axis",
+        "y-axis",
+        "x-axis",
+        "writing-mode",
+        "valdef-direction-rtl"
+      ],
+      "specShortname": "css-writing-modes-4"
+    },
+    "https://drafts.csswg.org/css2/": {
+      "specShortname": "CSS21"
+    },
+    "https://drafts.csswg.org/cssom-1/": {
+      "anchors": [
+        "cssomstring"
+      ],
+      "specShortname": "cssom-1"
+    },
+    "https://drafts.csswg.org/cssom-view-1/": {
+      "anchors": [
+        "dom-document-scrollingelement"
+      ],
+      "specShortname": "cssom-view-1"
+    },
+    "https://drafts.csswg.org/cssom-view/": {
+      "specShortname": "cssom-view-1"
+    },
+    "https://drafts.csswg.org/cssom/": {
+      "specShortname": "cssom-1"
+    },
+    "https://drafts.csswg.org/scroll-animations-1/": {
+      "specShortname": "scroll-animations-1"
+    },
+    "https://drafts.csswg.org/selectors-4/": {
+      "anchors": [
+        "selector"
+      ],
+      "specShortname": "selectors-4"
+    },
+    "https://drafts.csswg.org/selectors/": {
+      "specShortname": "selectors-4"
+    },
+    "https://drafts.csswg.org/web-animations-1/": {
+      "anchors": [
+        "concept-animation",
+        "timeline",
+        "inactive-timeline",
+        "animationtimeline",
+        "animation",
+        "dom-animatable-animate",
+        "dom-animationtimeline-currenttime",
+        "animation-effect-active-phase"
+      ],
+      "specShortname": "web-animations-1"
+    },
+    "https://drafts.csswg.org/web-animations-2/": {
+      "anchors": [
+        "dom-effecttiming-duration"
+      ],
+      "specShortname": "web-animations-2"
+    },
+    "https://github.com/w3c/csswg-drafts/issues": {},
+    "https://html.spec.whatwg.org/multipage/": {},
+    "https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html": {
+      "anchors": [
+        "dom-animationframeprovider-requestanimationframe"
+      ]
+    },
+    "https://html.spec.whatwg.org/multipage/nav-history-apis.html": {
+      "anchors": [
+        "window"
+      ]
+    },
+    "https://html.spec.whatwg.org/multipage/webappapis.html": {
+      "anchors": [
+        "current-global-object"
+      ]
+    },
+    "https://html.spec.whatwg.org/multipage/window-object.html": {
+      "anchors": [
+        "concept-document-window"
+      ]
+    },
+    "https://lists.w3.org/Archives/Public/public-css-archive/": {},
+    "https://lists.w3.org/Archives/Public/www-style/": {},
+    "https://webidl.spec.whatwg.org/": {
+      "anchors": [
+        "Exposed",
+        "method-steps",
+        "this"
+      ],
+      "specShortname": "webidl"
+    },
+    "https://www.w3.org/2021/Process-20211102/": {},
+    "https://www.w3.org/TR/CSS/": {
+      "specShortname": "CSS22"
+    },
+    "https://www.w3.org/TR/CSS2/about.html": {
+      "anchors": [
+        "property-defs"
+      ]
+    },
+    "https://www.w3.org/TR/css-animations/": {
+      "specShortname": "css-animations-1"
+    },
+    "https://www.w3.org/TR/css-cascade/": {
+      "anchors": [
+        "initial-values",
+        "applies-to",
+        "inherited-property",
+        "computed"
+      ],
+      "specShortname": "css-cascade-4"
+    },
+    "https://www.w3.org/TR/css-pseudo/": {
+      "anchors": [
+        "generated-content"
+      ],
+      "specShortname": "css-pseudo-4"
+    },
+    "https://www.w3.org/TR/css-values-3/": {
+      "anchors": [
+        "value-defs"
+      ],
+      "specShortname": "css-values-3"
+    },
+    "https://www.w3.org/TR/css-values/": {
+      "anchors": [
+        "value-defs",
+        "percentages"
+      ],
+      "specShortname": "css-values-4"
+    },
+    "https://www.w3.org/TR/cssom/": {
+      "anchors": [
+        "serializing-css-values"
+      ],
+      "specShortname": "cssom-1"
+    },
+    "https://www.w3.org/TR/web-animations/": {
+      "anchors": [
+        "animation-type"
+      ],
+      "specShortname": "web-animations-1"
+    }
+  }
+}
